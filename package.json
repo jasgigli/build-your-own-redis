@@ -1,0 +1,47 @@
+{
+  "name": "build-your-own-redis",
+  "version": "1.0.0",
+  "description": "A toy Redis clone built in JavaScript for the Codecrafters challenge.",
+  "main": "app/main.js",
+  "scripts": {
+    "start": "node app/main.js",
+    "dev": "nodemon app/main.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "redis",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=21.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "nodemon": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/build-your-own-redis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/build-your-own-redis/issues"
+  },
+  "homepage": "https://github.com/yourusername/build-your-own-redis#readme",
+  "contributors": [
+    "Your Name <your.email@example.com>"
+  ],
+  "files": [
+    "app/",
+    "README.md",
+    "LICENSE"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>/test"
+    ]
+  }
+}
